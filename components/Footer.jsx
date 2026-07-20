@@ -40,9 +40,26 @@ const Footer = () => {
           <div>
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
-              <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
-            </div>
+  <p>
+    <a
+      href="https://wa.me/923215236350"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-primary transition-colors"
+    >
+      +92 321 5236350
+    </a>
+  </p>
+
+  <p>
+    <a
+      href="mailto:iahmadbashir@icloud.com"
+      className="hover:text-primary transition-colors"
+    >
+      contact@jaytrons.com
+    </a>
+  </p>
+</div>
           </div>
         </div>
       </div>
